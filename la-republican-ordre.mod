@@ -1,5 +1,5 @@
 ﻿name="La Républicain Ordre"
-path="mod/la-republican-ordre/La-Republicain-Ordre/"
+path="mod/La-Republicain-Ordre/"
 tags={
 	"Alternative History"
 	"Graphics"
