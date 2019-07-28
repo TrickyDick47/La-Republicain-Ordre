@@ -67,6 +67,23 @@ ideas = {
 				fascism_drift = -0.05
 			}
 		}
+		AmericanEmpire = {
+			picture = merica
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.10
+			}
+		}
 		USA_limited_intervention = {
 			picture = generic_production_bonus
 			
