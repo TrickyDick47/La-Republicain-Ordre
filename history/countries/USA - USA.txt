@@ -266,8 +266,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	democratic = 82
+	communism = 4
+        fascist = 14
 }
 
 add_ideas = {
@@ -275,7 +276,6 @@ add_ideas = {
 	great_depression
 	disarmed_nation
 	free_trade
-	home_of_the_free
 	AmericanEmpire
 }
 
