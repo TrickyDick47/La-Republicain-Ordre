@@ -286,6 +286,11 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
+set_autonomy = {
+	target = JAM
+	autonomous_state =  autonomy_puppet
+}
+
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
@@ -299,11 +304,23 @@ create_country_leader = {
 	desc = "POLITICS_HERBERT_HOOVER_DESC"
 	picture = "Portrait_USA_Herbert_Hoover.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
 		dislikes_germany
 	}
 }
+
+create_country_leader = {
+	name = "Frank Tetes Johns"
+	desc = ""
+	picture = "Portrait_USA_Frank_Tetes_Johns.dds"
+	expire = "1947.1.1"
+	ideology = market_socialism
+	traits = {
+
+	}
+}
+
 #create_country_leader = {
 #	name = "Franklin Delano Roosevelt"
 #	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
