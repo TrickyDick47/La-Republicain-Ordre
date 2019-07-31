@@ -4,8 +4,12 @@ ideologies = {
 	
 		types = {
 			conservatism = {
-			
 			}
+			
+			moderatism = {
+			}
+			
+		
 		}
 		
 		dynamic_faction_names = {
@@ -67,7 +71,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 255 0 255 }
+		color = { 255 77 77 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -104,6 +108,9 @@ ideologies = {
 	
 		types = {
 			liberalism = {
+			}
+			
+			centrism = {
 			}
 		}
 		
@@ -153,6 +160,9 @@ ideologies = {
 	
 		types = {
 			social_democratism = {
+			}
+			
+			socialism = {
 			}
 		}
 		
@@ -299,14 +309,6 @@ ideologies = {
 			despotism  = {
 			}
 			
-			oligarchism  = {
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
-			}
 		}
 
 		dynamic_faction_names = {
@@ -353,6 +355,9 @@ ideologies = {
 		types = {
 		
 			authoritarian_democratism  = {
+			}
+			
+			oligarchism  = {
 			}
 
 		}
