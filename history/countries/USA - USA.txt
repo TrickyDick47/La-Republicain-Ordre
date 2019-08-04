@@ -266,9 +266,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 82
-	communism = 4
-        fascism = 14
+	democratic = 42
+	communism = 36
+        fascism = 2
+        market_socialism = 2
+        liberalism = 10 
+        social_democratism = 4
+        neutrality = 2
+        authoritarian_democratism = 2
+        
 }
 
 add_ideas = {
