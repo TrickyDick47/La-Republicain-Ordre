@@ -67,8 +67,27 @@ ideas = {
 				fascism_drift = -0.05
 			}
 		}
-		AmericanEmpire = {
-			picture = merica
+		american_imperialism = {
+			picture = usa_america
+			
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.10
+			}
+		}
+		
+		communist_resistance = {
+			picture = communist_revolt
 			
 			allowed = {
 				always = no
@@ -81,9 +100,49 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				war_support_factor = 0.10
+				consumer_goods_factor = 0.05
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.15
 			}
 		}
+		
+		uncertain_foreign_policy = {
+			picture = uncertan_foreign_policy
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		herbet_hoover = {
+			picture = hoover_spirit
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.2
+			}
+		}
+		
 		USA_limited_intervention = {
 			picture = generic_production_bonus
 			
@@ -981,7 +1040,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = usa_house_of_liberty
 			
 			rule = {
 				can_join_opposite_factions = no
